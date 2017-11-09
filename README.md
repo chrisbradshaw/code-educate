@@ -27,8 +27,8 @@ These instructions will get you a copy of the project up and running on your loc
 ### Prerequisites
 
 ```
-Ruby Version 2.4.1
-Rails Version 5.1.4
+Ruby Version 2.3.1
+Rails Version 4.2.10
 ```
 
 ### Installing

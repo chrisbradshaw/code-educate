@@ -1,0 +1,49 @@
+<h3>Contact</h3>
+
+
+<div class="card z-depth-3">
+    <div class="card-content">
+        <p>Would you like to connect? Let's get coffee at Starbucks Brookfield Place</p>
+
+
+    </div>
+</div>
+
+    <style>
+        #map {
+            height: 400px;
+            width: 100%;
+        }
+    </style>
+  
+  
+  
+   <style>
+      #map {
+        height: 400px;
+        width: 100%;
+       }
+    </style>
+
+  <body>
+
+    <div id="map"></div>
+    <script>
+      function initMap() {
+        var uluru = {lat: 40.714189, lng: -74.015488};
+        var map = new google.maps.Map(document.getElementById('map'), {
+          zoom: 14,
+          center: uluru
+        });
+        var marker = new google.maps.Marker({
+          position: uluru,
+          title: "Starbucks Brookfield Place",
+          map: map
+        });
+      }
+    </script>
+    <script async defer
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBqZA1ByDr1bDS6TlgxVKgKHMgKWfCeU3E&callback=initMap">
+    </script>
+
+<br><br>
