@@ -15,7 +15,7 @@ Code Educate is a comprehensive video learning platform complete with Stripe Pay
         <li>User Subscriptions and Stripe Credit Card Payments</li>
         <li>Users Course Reviews with Stars</li>
         <li>Social Media Sharing: Open Graph and Discussions/Comments</li>
-        <li>Responsive Design</li>
+        <li>Responsive Styling with Material Design</li>
     </ul>
 
 
@@ -85,8 +85,14 @@ Please contact <a href="mailto:bradshaw.chris@gmail.com">bradshaw.chris@gmail.co
 
 ## Built With
 
-* [Sendgrid](https://sendgrid.com/) - Transactional Email Management
+* [Wistia](https://wistia.com/) - Video hosting with viewer analytics
+* [Active Admin](https://github.com/activeadmin/activeadmin) - Website administration backend
+* [Sendgrid](https://sendgrid.com/) - Transactional email management
 * [Stripe](https://stripe.com/docs) - Payments and payouts
+* [Material Design](https://material.io/) - Styling
+* [Google Maps API](https://developers.google.com/maps/) - Map on contact page
+* [Devise](https://github.com/plataformatec/devise) - User Authentication
+
 
 
 ## Contributing
