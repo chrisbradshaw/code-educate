@@ -73,12 +73,21 @@ Navigate to localhost:3000 in your browser.
 In your application.yml file you must have values for the following:
 
 ```
-facebook_api_key: ""
-facebook_api_secret: ""
-devise_secret_key: ""
-stripe_publishable_key: ""
-stripe_secret_key: ""
-stripe_client_id: ""
+STRIPE_SECRET_KEY: ''
+STRIPE_PUBLIC_KEY: ''
+
+MAILER_API_KEY: ''
+
+GOOGLE_APP_ID: ''
+GOOGLE_APP_SECRET: ''
+
+FACEBOOK_APP_ID: ''
+FACEBOOK_APP_SECRET: ''
+
+GITHUB_APP_ID: ''
+GITHUB_APP_SECRET: ''
+
+DEVISE_SECRET_KEY: ''
 ```
 
 Please contact <a href="mailto:bradshaw.chris@gmail.com">bradshaw.chris@gmail.com</a> if you think you should have access credentials.
