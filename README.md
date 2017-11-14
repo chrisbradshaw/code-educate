@@ -57,7 +57,7 @@ Create db and migrate schema
 
 ```
 rake db:create
-rails db:migrate
+rake db:migrate
 ```
 
 Don't forget to open PostgreSQL, and let's party
