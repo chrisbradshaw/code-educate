@@ -6,8 +6,17 @@ Rails.application.routes.draw do
               :controllers => {:omniauth_callbacks => "omniauth_callbacks"}
 
   get 'pages/about'
+  get '/myprojects' => 'project#list'
 
-  root 'pages#about'
+  root 'project#index'
+  
+    resources :project do
+      resources :task, only: [:show]
+    end
+
+    resources :project do
+      resources :reviews, only: [:create, :destroy]
+    end
 
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
