@@ -101,6 +101,10 @@ Please contact <a href="mailto:bradshaw.chris@gmail.com">bradshaw.chris@gmail.co
 * [Material Design](https://material.io/) - Styling
 * [Google Maps API](https://developers.google.com/maps/) - Map on contact page
 * [Devise](https://github.com/plataformatec/devise) - User Authentication
+* [Zendesk](https://www.zendesk.com) - User chat
+* [Google Analytics](https://analytics.google.com/) - Track site usage
+* [Sumo](https://sumo.com/) - Social link sharing
+* [Disqus](https://sumo.com/) - Lesson discussions
 
 
 
